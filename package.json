@@ -7,11 +7,18 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@vue/apollo-composable": "^4.0.0-alpha.19",
+    "graphql": "^16.5.0",
+    "graphql-tag": "^2.12.6",
     "vue": "^3.2.37",
     "vue-router": "^4.1.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.1",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6",
     "vite": "^3.0.1"
   }
 }
