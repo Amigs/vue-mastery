@@ -25,10 +25,12 @@ import IconHome from './components/icons/IconHome.vue'
         </nav>
       </div>
     </header>
-
-    <RouterView />
+    <transition  name="fade" mode="out-in">
+      <RouterView />
+    </transition>
   </div>
 </template>
 
-<style scoped>
+<style >
+
 </style>
